@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/jadwal">
+
+    <Button
+            android:id="@+id/btn_BackJadwal"
+            android:background="@android:color/transparent"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginTop="0px" android:layout_marginLeft="0px"/>
+    <Button
+            android:id="@+id/btn_Jadwal0"
+            android:background="@android:color/transparent"
+            android:layout_width="55px"
+            android:layout_height="55px"
+            android:layout_marginTop="333px" android:layout_marginLeft="93px"/>
+    <Button
+            android:id="@+id/btn_Jadwal1"
+            android:background="@android:color/transparent"
+            android:layout_width="55px"
+            android:layout_height="55px"
+            android:layout_marginTop="333px" android:layout_marginLeft="153px"/>
+    <Button
+            android:id="@+id/btn_Jadwal2"
+            android:background="@android:color/transparent"
+            android:layout_width="55px"
+            android:layout_height="55px"
+            android:layout_marginTop="333px" android:layout_marginLeft="213px"/>
+    <Button
+            android:id="@+id/btn_Jadwal4"
+            android:background="@android:color/transparent"
+            android:layout_width="55px"
+            android:layout_height="55px"
+            android:layout_marginTop="333px" android:layout_marginLeft="333px"/>
+    <Button
+            android:id="@+id/btn_Jadwal5"
+            android:background="@android:color/transparent"
+            android:layout_width="55px"
+            android:layout_height="55px"
+            android:layout_marginTop="395px" android:layout_marginLeft="93px"/>
+    <Button
+            android:id="@+id/btn_Jadwal6"
+            android:background="@android:color/transparent"
+            android:layout_width="55px"
+            android:layout_height="55px"
+            android:layout_marginTop="395px" android:layout_marginLeft="153px"/>
+    <Button
+            android:id="@+id/btn_Jadwal9"
+            android:background="@android:color/transparent"
+            android:layout_width="55px"
+            android:layout_height="55px"
+            android:layout_marginTop="395px" android:layout_marginLeft="333px"/>
+    <Button
+            android:id="@+id/btn_Jadwal12"
+            android:background="@android:color/transparent"
+            android:layout_width="55px"
+            android:layout_height="55px"
+            android:layout_marginTop="459px" android:layout_marginLeft="213px"/>
+    <Button
+            android:id="@+id/btn_Jadwal15"
+            android:background="@android:color/transparent"
+            android:layout_width="55px"
+            android:layout_height="55px"
+            android:layout_marginTop="520px" android:layout_marginLeft="93px"/>
+    <Button
+            android:id="@+id/btn_Jadwal18"
+            android:background="@android:color/transparent"
+            android:layout_width="55px"
+            android:layout_height="55px"
+            android:layout_marginTop="520px" android:layout_marginLeft="273px"/>
+    <Button
+            android:id="@+id/btn_Jadwal24"
+            android:background="@android:color/transparent"
+            android:layout_width="55px"
+            android:layout_height="55px"
+            android:layout_marginTop="583px" android:layout_marginLeft="333px"/>
+
+    <Button
+            android:id="@+id/btn_Home"
+            android:background="@android:color/transparent"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginTop="750px" android:layout_marginLeft="0px"/>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:background="@drawable/registration"
+              android:layout_height="fill_parent" >
+
+    <EditText
+            android:layout_width="290px"
+            android:layout_height="100px"
+
+            android:inputType="textPersonName"
+            android:hint="Nama Bayi"
+            android:ems="10"
+            android:textCursorDrawable="@null"
+            android:id="@+id/txtName" android:background="#fff6b5"
+            android:textStyle="bold" android:textColor="#000000"
+            android:layout_x="100px" android:layout_y="425px"
+            android:singleLine="true" android:gravity="center"/>
+    <Button
+            android:id="@+id/btn_OkName"
+            android:background="@android:color/transparent"
+            android:layout_width="150px"
+            android:layout_height="50px"
+            android:layout_x="170px" android:layout_y="560px"/>
+
+</AbsoluteLayout>

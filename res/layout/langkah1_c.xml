@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/langkahCLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/langkah1_c">
+
+    <Button
+            android:id="@+id/btn_BackLangkah1_c"
+            android:background="@android:color/transparent"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginTop="0px" android:layout_marginLeft="0px"/>
+
+    <Button
+            android:id="@+id/btn_PijatWajah"
+            android:background="@android:color/transparent"
+            android:layout_width="480px"
+            android:layout_height="80px"
+            android:layout_marginTop="275px" android:layout_marginLeft="0px"/>
+    <Button
+            android:id="@+id/btn_PijatDada"
+            android:background="@android:color/transparent"
+            android:layout_width="480px"
+            android:layout_height="80px"
+            android:layout_marginTop="360px" android:layout_marginLeft="0px"/>
+    <Button
+            android:id="@+id/btn_PijatLengan"
+            android:background="@android:color/transparent"
+            android:layout_width="480px"
+            android:layout_height="80px"
+            android:layout_marginTop="440px" android:layout_marginLeft="0px"/>
+    <Button
+            android:id="@+id/btn_PijatKaki"
+            android:background="@android:color/transparent"
+            android:layout_width="480px"
+            android:layout_height="80px"
+            android:layout_marginTop="525px" android:layout_marginLeft="0px"/>
+    <Button
+            android:id="@+id/btn_PijatPunggung"
+            android:background="@android:color/transparent"
+            android:layout_width="480px"
+            android:layout_height="80px"
+            android:layout_marginTop="610px" android:layout_marginLeft="0px"/>
+    <Button
+            android:id="@+id/btn_Home"
+            android:background="@android:color/transparent"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginTop="750px" android:layout_marginLeft="0px"/>
+
+
+</RelativeLayout>

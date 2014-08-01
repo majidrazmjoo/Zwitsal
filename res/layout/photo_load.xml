@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/langkahALayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/photo_load">
+
+    <Button
+            android:id="@+id/btn_BackPhotoLoad"
+            android:background="@android:color/transparent"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginTop="0px" android:layout_marginLeft="0px"/>
+    <ImageView
+               android:layout_width="450px"
+               android:layout_height="450px"
+               android:layout_marginLeft="15px"
+               android:layout_marginTop="150px"
+               android:id="@+id/imageLoaded">
+    </ImageView>
+
+    <Button
+            android:id="@+id/btn_PhotoLoadGallery"
+            android:background="@android:color/transparent"
+            android:layout_width="80px"
+            android:layout_height="90px"
+            android:layout_marginTop="630px" android:layout_marginLeft="140px"/>
+    <Button
+            android:id="@+id/btn_PhotoLoadFacebook"
+            android:background="@android:color/transparent"
+            android:layout_width="80px"
+            android:layout_height="90px"
+            android:layout_marginTop="630px" android:layout_marginLeft="280px"/>
+
+    <Button
+            android:id="@+id/btn_ForwardLoadPhoto"
+            android:background="@android:color/transparent"
+            android:layout_width="140px"
+            android:layout_height="70px"
+            android:layout_marginTop="740px" android:layout_marginLeft="170px" android:text="Next Step"/>
+
+    <Button
+            android:id="@+id/btn_Home"
+            android:background="@android:color/transparent"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginTop="750px" android:layout_marginLeft="0px"/>
+
+
+</RelativeLayout>

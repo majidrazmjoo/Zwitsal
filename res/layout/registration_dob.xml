@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:background="@drawable/registration"
+              android:layout_height="fill_parent" >
+
+    <Button
+            android:id="@+id/btn_OkDate"
+            android:background="@android:color/transparent"
+            android:layout_width="150px"
+            android:layout_height="50px"
+            android:layout_x="170px" android:layout_y="560px"/>
+    <Spinner
+            android:layout_width="90px"
+            android:layout_height="50px"
+            android:id="@+id/spinnerDay" android:layout_x="95px" android:layout_y="450px"
+            android:spinnerMode="dialog" android:background="@android:color/darker_gray"/>
+    <Spinner android:layout_width="90px" android:layout_height="50px" android:id="@+id/spinnerMonth"
+             android:layout_x="188px" android:layout_y="450px" android:spinnerMode="dialog"
+             android:background="@android:color/darker_gray"/>
+    <Spinner android:layout_width="110px" android:layout_height="50px" android:id="@+id/spinnerYear"
+             android:layout_x="280px" android:layout_y="450px" android:spinnerMode="dialog"
+             android:background="@android:color/darker_gray"/>
+    <TextView
+            android:layout_width="200px"
+            android:layout_height="40px"
+            android:text="Tanggal Lahir"
+            android:id="@+id/txtTitleDate" android:layout_x="150px" android:layout_y="400px"
+            android:textAlignment="center" android:textColor="@android:color/black" android:textSize="30px"
+            android:textStyle="bold"/>
+    <TextView android:layout_width="70px" android:layout_height="40px" android:text="Tarikh"
+              android:id="@+id/textTarikh" android:layout_x="110px" android:layout_y="500px"
+              android:textAlignment="center" android:textColor="@android:color/black" android:textSize="20px"
+            />
+    <TextView android:layout_width="70px" android:layout_height="40px" android:text="Bulan" android:id="@+id/textBulan"
+              android:layout_x="200px" android:layout_y="500px" android:textAlignment="center"
+              android:textColor="@android:color/black" android:textSize="20px"/>
+    <TextView android:layout_width="70px" android:layout_height="40px" android:text="Tahun" android:id="@+id/textTahun"
+              android:layout_x="300px" android:layout_y="500px" android:textAlignment="center"
+              android:textColor="@android:color/black" android:textSize="20px" android:startYear="2010"/>
+
+
+</AbsoluteLayout>

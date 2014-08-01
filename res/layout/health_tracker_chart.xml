@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/calculator_chart">
+
+    <Button
+            android:id="@+id/btn_BackChart"
+            android:background="@android:color/transparent"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginTop="0px" android:layout_marginLeft="0px"/>
+    <Button
+            android:id="@+id/btn_TrackerLakiLaki"
+            android:background="@android:color/transparent"
+            android:layout_width="160px"
+            android:layout_height="40px"
+            android:layout_marginTop="230px" android:layout_marginLeft="80px"/>
+    <Button
+            android:id="@+id/btn_TrackerPerempuan"
+            android:background="@android:color/transparent"
+            android:layout_width="160px"
+            android:layout_height="40px"
+            android:layout_marginTop="230px" android:layout_marginLeft="242px"/>
+
+    <ScrollView
+            android:layout_width="480px"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollTracker"
+            android:fillViewport="true"
+            android:fadingEdge="none"
+            android:layout_marginLeft="0px" android:layout_marginTop="325px" android:layout_marginBottom="72px">
+        <LinearLayout android:id="@+id/linearLayout1"
+                      android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center_horizontal" >
+            <ImageView android:src="@drawable/health_chart_perempuan"
+                       android:adjustViewBounds="true"
+                       android:layout_height="match_parent" android:id="@+id/imageChart"
+                       android:layout_width="match_parent"></ImageView>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <ImageView android:src="@drawable/tracker_perempuan_header"
+               android:layout_width="480px"
+               android:layout_height="55px"
+               android:layout_marginLeft="0px"
+               android:layout_marginTop="280px"
+               android:id="@+id/img_Tracker_Header">
+    </ImageView>
+
+    <Button
+            android:id="@+id/btn_Home"
+            android:background="@android:color/transparent"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginTop="750px" android:layout_marginLeft="0px"/>
+
+</RelativeLayout>

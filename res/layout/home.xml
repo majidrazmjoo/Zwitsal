@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:background="@drawable/main"
+                android:layout_height="fill_parent" >
+    <Button
+            android:id="@+id/btn_BabySpa"
+            android:background="@android:color/transparent"
+            android:layout_width="235px"
+            android:layout_height="260px"
+            android:layout_x="2px" android:layout_y="185px"/>
+
+    <Button
+            android:id="@+id/btn_HealthTracker"
+            android:background="@android:color/transparent"
+            android:layout_width="235px"
+            android:layout_height="260px"
+            android:layout_x="240px" android:layout_y="185px"/>
+    <Button
+            android:id="@+id/btn_BabyMoments"
+            android:background="@android:color/transparent"
+            android:layout_width="235px"
+            android:layout_height="260px"
+            android:layout_x="2px" android:layout_y="450px"/>
+
+    <Button
+            android:id="@+id/btn_BabyVideo"
+            android:background="@android:color/transparent"
+            android:layout_width="235px"
+            android:layout_height="260px"
+            android:layout_x="240px" android:layout_y="450px"/>
+
+
+</AbsoluteLayout>

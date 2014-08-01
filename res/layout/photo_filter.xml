@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/langkahALayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/photo_filter_background">
+
+    <Button
+            android:id="@+id/btn_BackPhotoFilter"
+            android:background="@android:color/transparent"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginTop="0px" android:layout_marginLeft="0px"/>
+
+    <ImageView android:src="@drawable/photo_filter_color_header"
+               android:layout_width="480px"
+               android:layout_height="100px"
+               android:layout_marginLeft="0px"
+               android:layout_marginTop="60px"
+               android:id="@+id/img_Filter_Header">
+    </ImageView>
+    <Button
+            android:id="@+id/btn_FilterHeader1"
+            android:background="@android:color/transparent"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginTop="100px" android:layout_marginLeft="50px"/>
+    <Button
+            android:id="@+id/btn_FilterHeader2"
+            android:background="@android:color/transparent"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginTop="100px" android:layout_marginLeft="110px"/>
+    <Button
+            android:id="@+id/btn_FilterHeader3"
+            android:background="@android:color/transparent"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginTop="100px" android:layout_marginLeft="170px"/>
+    <Button
+            android:id="@+id/btn_FilterHeader4"
+            android:background="@android:color/transparent"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginTop="100px" android:layout_marginLeft="230px"/>
+    <Button
+            android:id="@+id/btn_FilterHeader5"
+            android:background="@android:color/transparent"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginTop="100px" android:layout_marginLeft="290px"/>
+
+
+    <ImageView
+            android:layout_width="450px"
+            android:layout_height="450px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="160px"
+            android:id="@+id/img_FilterProceed">
+    </ImageView>
+    <ImageView
+            android:src="@drawable/filter_color1"
+            android:layout_width="450px"
+            android:layout_height="450px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="160px"
+            android:id="@+id/img_FilterApplied">
+    </ImageView>
+
+    <ImageView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_marginLeft="255px"
+            android:layout_marginTop="550px"
+            android:visibility="invisible"
+            android:id="@+id/img_AfterFilter">
+    </ImageView>
+
+
+    <Button
+            android:id="@+id/btn_FilterPlain"
+            android:background="@android:color/transparent"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginTop="625px" android:layout_marginLeft="45px"/>
+
+    <Button
+            android:id="@+id/btn_FilterPolka"
+            android:background="@android:color/transparent"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginTop="625px" android:layout_marginLeft="110px"/>
+
+    <Button
+            android:id="@+id/btn_FilterZigzag"
+            android:background="@android:color/transparent"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginTop="625px" android:layout_marginLeft="175px"/>
+
+    <Button
+            android:id="@+id/btn_FilterFlorals"
+            android:background="@android:color/transparent"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginTop="625px" android:layout_marginLeft="240px"/>
+
+    <Button
+            android:id="@+id/btn_FilterMessage"
+            android:background="@android:color/transparent"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginTop="625px" android:layout_marginLeft="305px"/>
+
+    <Button
+            android:id="@+id/btn_FilterOthers"
+            android:background="@android:color/transparent"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginTop="625px" android:layout_marginLeft="370px"/>
+
+    <Button
+            android:id="@+id/btn_Save_Share"
+            android:background="@android:color/transparent"
+            android:layout_width="140px"
+            android:layout_height="70px"
+            android:layout_marginTop="740px" android:layout_marginLeft="170px" android:text="Save to Gallery"/>
+
+    <Button
+            android:id="@+id/btn_Home"
+            android:background="@android:color/transparent"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginTop="750px" android:layout_marginLeft="0px"/>
+
+
+</RelativeLayout>

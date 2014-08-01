@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.csw.zwitsal"
+          android:versionCode="1"
+          android:versionName="1.0" >
+    <uses-sdk android:minSdkVersion="9"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application android:label="@string/app_name" android:icon="@drawable/zwitsal_icon" android:name=".ApplicationGlobal">
+        <activity android:name=".GlobalFunctions"/>
+        <activity android:name=".Landing"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RegistrationName"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+
+        <activity android:name=".RegistrationDateOfBirth"
+        android:screenOrientation="portrait"
+        android:configChanges="keyboardHidden|orientation"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        android:label="@string/app_name"></activity>
+
+        <activity android:name=".RegistrationFinal"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+
+        <!--android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen"-->
+        <activity android:name=".RegistrationSex"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+
+        <activity android:name=".RegistrationMotherName"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+
+        <activity android:name=".RegistrationEmail"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+
+        <activity android:name=".RegistrationPhone"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+
+        <activity android:name=".RegistrationAddress"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+
+        <activity android:name=".Home"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+        <activity android:name=".BabySpaHome"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+        <activity android:name=".LangkahA"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+
+        <activity android:name=".LangkahB"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+
+        <activity android:name=".Langkah1C"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+
+        <activity android:name=".LangkahC"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+
+        <activity android:name=".HealthHome"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+
+        <activity android:name=".HealthCalculator"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+
+        <activity android:name=".HealthTracker"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+
+        <activity android:name=".HealthJadwal"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+        <activity android:name=".HealthJadwalDetail"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+        <activity android:name=".PhotoHome"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+        <activity android:name=".PhotoLoad"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+        <activity android:name=".PhotoFilter"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:label="@string/app_name"></activity>
+
+    </application>
+</manifest>
