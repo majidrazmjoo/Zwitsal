@@ -207,6 +207,7 @@ public class PhotoFilter extends Activity implements View.OnClickListener{
         picName=generator.nextInt(picName);
         String imageName = "zwitsal-" + picName + ".jpg";
         File fileImage=new File(zwitsalDir,imageName);
+        //majid
         if (fileImage.exists()){
             fileImage.delete();
         }
